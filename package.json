@@ -1,0 +1,25 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "lint": "eslint **/*.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamarushin/data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamarushin/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/tamarushin/data-structures-and-algorithms#readme",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "jest": "^22.4.4"
+  }
+}
