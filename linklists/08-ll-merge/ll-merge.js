@@ -1,8 +1,5 @@
 'use strict';
 
-module.exports={};
-exports.
-
 function mergedList(list1, list2) {
   let curr1= list1.head;
   let curr2 = list2.head;
