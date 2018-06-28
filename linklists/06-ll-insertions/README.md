@@ -7,4 +7,4 @@ Write the following methods for the Linked List class:
 .insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
 
 ## Solution
-![whiteboard](assets/LL-insertions.jpg)
+![whiteboard](./../../assets/LL-insertions.jpg)

@@ -7,4 +7,4 @@ Note: Length or Size are *not* included in standard properties for a LL.
 
 
 ## Solution
-![whiteboard](../../assets/LL-detect-loop.jpg)
+![whiteboard](./../../assets/LL-detect-loop.jpg)
