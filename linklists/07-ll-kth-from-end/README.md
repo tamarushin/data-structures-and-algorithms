@@ -6,3 +6,6 @@ Return the node that is k from the end of the linked list. You have access to th
 
 ## Solution
 ![whiteboard](./../../assets/LL-kth-from-end.jpg)
+
+## Travis: 
+https://travis-ci.org/tamarushin/data-structures-and-algorithms.svg?branch=master
