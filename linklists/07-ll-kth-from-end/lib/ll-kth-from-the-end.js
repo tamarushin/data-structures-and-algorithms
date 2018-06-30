@@ -29,22 +29,27 @@ LinkedList.append = (value) => { //append the next node if it is not the head no
 
 LinkedList.kthValue = (kth) => {
   let currNode = this.head;
-  let curr; 
+  let num = 0;  
    
   while (currNode.next !== null) {
+    num++;
     currNode = currNode.next;
   }
   currNode = this.head;
-  kth = curr.value - kth;
-  curr.value = 0;
+  kth = num - kth;
+  num = 0;
   if (kth >= 0) {
-    while (currNode < kth) {
+    while (num < kth) {
       currNode = currNode.next;
-      currNode++;
+      num++;
     }
+    return currNode.value; // non negative integer
+  } else {
+    return `Input is invalid`;
   }
-  return currNode.value; // non negative integer
 };
+
+module.exports = LinkedList;
 
 
 
