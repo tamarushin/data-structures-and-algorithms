@@ -2,6 +2,7 @@
 
 function reverseArray(arr) {
   let reverse = [];
+
   for (let i = arr.length - 1; i >= 0; i--) {
     reverseArray += arr[i];
   }
