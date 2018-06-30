@@ -8,3 +8,5 @@ Write the following methods for the Linked List class:
 
 ## Solution
 ![whiteboard](./../../assets/LL-insertions.jpg)
+
+//fixed link
