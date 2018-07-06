@@ -9,4 +9,4 @@ Utilize the Single-responsibility principle: any methods you write should be cle
 
 
 ## Solution
-![whiteboard](./../../assets/queue-with-stacks.jpg)
+![whiteboard](./../../assets/Q-queue-with-stacks.jpg)
