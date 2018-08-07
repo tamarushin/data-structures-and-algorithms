@@ -6,4 +6,4 @@ Without utilizing any of the built-in methods available to your language, determ
 
 
 ## Solution pic
-![whiteboard](./../../assets/fizz-buzz-tree.jpg)
+![whiteboard](./../../assets/Fizz-Buzz-Tree.jpg)
