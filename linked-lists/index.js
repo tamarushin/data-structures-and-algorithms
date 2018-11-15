@@ -43,4 +43,23 @@ class LinkedList {
 
     this.head = previous;
   }
+
+  remove(value) {
+    if (this.head.value === value) {
+      let result = this.head;
+      this.head = this.head.next;
+      return result;
+    }
+
+    let current = this.head;
+    while (current.next.value !== value) {
+      current = current.next;
+    }
+
+    let result = current.next;
+    current.next = current.next.next;
+    return result;
+  }
 }
+
+module.exports = LinkedList;
