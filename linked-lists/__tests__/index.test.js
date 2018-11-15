@@ -21,4 +21,22 @@ describe('testing LinkedList class', () => {
     expect(list.head.next.next.value).toEqual(3);
     expect(list.head.next.next.next.value).toEqual(4);
   });
+
+  it('prepend(value) method should prepend a node to a list at the beginning if the list is empty', () => {
+    let list = new LinkedList();
+    list.prepend(1);
+    expect(list.head.value).toEqual(1);
+  });
+
+  it('prepend(value) method should prepend a node to a list at the beginning if this list is not empty', () => {
+    let list = new LinkedList();
+    list.prepend(1);
+    list.prepend(2);
+    list.prepend(3);
+    list.prepend(4);
+    expect(list.head.value).toEqual(4);
+    expect(list.head.next.value).toEqual(3);
+    expect(list.head.next.next.value).toEqual(2);
+    expect(list.head.next.next.next.value).toEqual(1);
+  });
 });
