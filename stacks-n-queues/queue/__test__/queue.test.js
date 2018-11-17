@@ -3,9 +3,9 @@
 const Queue = require('../index.js');
 
 describe('Queue methods', () => {
-  it('enqueue(value) method should add a value to the beginning of the queue', () => {
-
+  it('enqueue(value) method should add a value to the end of the queue', () => {
     let newQueue = new Queue();
+
     newQueue.enqueue(3);
     newQueue.enqueue(4);
     newQueue.enqueue(5);
@@ -14,5 +14,15 @@ describe('Queue methods', () => {
     expect(newQueue.queue[0]).toEqual(5);
     expect(newQueue.queue[1]).toEqual(4);
     expect(newQueue.queue[2]).toEqual(3);
+  });
+
+  it('dequeue() method should remove a value from the beginning of the queue', () => {
+    let newQueue = new Queue();
+
+    newQueue.enqueue(3);
+    newQueue.enqueue(4);
+    newQueue.enqueue(5);
+    expect(newQueue.dequeue()).toEqual(3);
+    expect(newQueue.queue.length).toEqual(2);
   });
 });
