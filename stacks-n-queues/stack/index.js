@@ -5,8 +5,8 @@ class Stack {
     this.stack = [];
   }
 
-  push(item) {
-    this.stack[this.stack.length] = item;
+  push(value) {
+    this.stack[this.stack.length] = value;
   }
 
   pop() {
