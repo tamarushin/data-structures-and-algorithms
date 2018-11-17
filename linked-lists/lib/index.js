@@ -1,13 +1,13 @@
 'use strict';
 
-const Node = require('./lib/node');
+const Node = require('./node');
 
 class LinkedList {
   constructor() {
     this.head = null;
   }
 
-  append(value) {
+  append(value) { // Big O --> O(n)
 
     if (!this.head) {
       this.head = new Node(value);
@@ -23,13 +23,13 @@ class LinkedList {
     current.next = new Node(value);
   }
 
-  prepend(value) {
+  prepend(value) { // Big O --> O(1)
     let node = new Node(value);
     node.next = this.head;
     this.head = node;
   }
 
-  reverse() {
+  reverse() { // Big O --> O(n)
     let current = this.head;
     let previous = null;
     let next = null;
@@ -44,7 +44,7 @@ class LinkedList {
     this.head = previous;
   }
 
-  remove(value) {
+  remove(value) { // Big O --> O(n)
     if (this.head.value === value) {
       let result = this.head;
       this.head = this.head.next;

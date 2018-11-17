@@ -1,6 +1,6 @@
 'use strict';
 
-const LinkedList = require('../index.js');
+const LinkedList = require('../lib/index.js');
 
 describe('testing LinkedList class', () => {
 
