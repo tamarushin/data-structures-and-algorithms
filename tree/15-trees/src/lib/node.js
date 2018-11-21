@@ -1,11 +1,11 @@
 'use strict';
 
 class Node {
-  constructor(data) {
-    this.data = data;
+  constructor(value) {
+    this.value = value;
     this.left = null;
     this.right = null;
   }
 }
 
-module.export = Node;
+module.exports = Node;
