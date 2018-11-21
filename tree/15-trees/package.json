@@ -1,0 +1,22 @@
+{
+  "name": "15-trees",
+  "version": "1.0.0",
+  "description": "![cf](http://i.imgur.com/7v5ASc8.png) Tree Data Structure ====",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "lint": "eslint **/*.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefellows-seattle-javascript-401n5/15-trees.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefellows-seattle-javascript-401n5/15-trees/issues"
+  },
+  "homepage": "https://github.com/codefellows-seattle-javascript-401n5/15-trees#readme"
+}
