@@ -5,7 +5,7 @@ const Node = require('./node');
 class LinkedList {
   constructor() {
     this.head = null;
-  } 
+  }
 
   append(value) { // Big O --> O(n)
 
